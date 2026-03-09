@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-/* Header Section */
+
 .header {
     text-align: center;
     margin-bottom: 30px;
@@ -86,6 +86,28 @@ label {
     margin-bottom: 12px;
 }
 
+.number-input {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color: #667eea;
+    border: none;
+    border-bottom: 3px solid #667eea;
+    padding: 8px 12px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.number-input:focus {
+    border-bottom-color: #764ba2;
+}
+
+.number-input::placeholder {
+    color: #cbd5e1;
+}
+
 .number-display {
     display: block;
     font-size: 48px;
@@ -95,6 +117,14 @@ label {
     padding: 8px 16px;
     min-width: 80px;
     margin: 0 auto;
+}
+
+.number-display-small {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-top: 8px;
 }
 
 .helper-text {
@@ -176,6 +206,48 @@ button:active {
 
 .info-box strong {
     font-weight: 600;
+}
+
+/* History Section */
+.history-section {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 2px solid #e2e8f0;
+}
+
+.history-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.history-content {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 16px;
+    min-height: 60px;
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.clear-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    font-size: 12px;
+    padding: 10px 16px;
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+.clear-btn:hover {
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
 }
 
 /* Responsive Design */
