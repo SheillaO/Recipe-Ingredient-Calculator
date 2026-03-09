@@ -1,17 +1,56 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
-        <br>
-        <button onclick="add()">Add</button>
-        <button onclick="subtract()">Subtract</button>
-        <button onclick="divide()">Divide</button>
-        <button onclick="multiply()">Multiply</button>
-        <br>
-        <span id="sum-el">Sum: </span>
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🍪 Recipe Ingredient Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="emoji">🍪</div>
+            <h1>Recipe Ingredient Calculator</h1>
+            <p class="subtitle">Quickly calculate ingredient quantities for your recipes</p>
+        </div>
+
+        <div class="calculator-box">
+            <div class="input-section">
+                <div class="input-group">
+                    <label>Original Amount</label>
+                    <span id="num1-el" class="number-display"></span>
+                    <p class="helper-text">cups of flour</p>
+                </div>
+
+                <div class="operator">×</div>
+
+                <div class="input-group">
+                    <label>Multiplier</label>
+                    <span id="num2-el" class="number-display"></span>
+                    <p class="helper-text">times the recipe</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button onclick="add()">Add</button>
+                <button onclick="subtract()">Subtract</button>
+                <button onclick="divide()">Divide</button>
+                <button onclick="multiply()">Multiply</button>
+            </div>
+
+            <div class="result-section">
+                <span id="sum-el">Result: </span>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <p><strong>💡 How to use:</strong> Use the buttons to perform calculations on your recipe ingredients.
+                Perfect for scaling recipes up or down!</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
