@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"5 content="width=device-width, initial-scale=1.0">
-    <title> 🍪 Recipe Ingredient Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Ingredient Calculator</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,7 +21,8 @@
             <div class="input-section">
                 <div class="input-group">
                     <label>Original Amount</label>
-                    <span id="num1-el" class="number-display"></span>
+                    <input type="number" id="input1" class="number-input" placeholder="8" oninput="updateNum1()">
+                    <span id="num1-el" class="number-display-small"></span>
                     <p class="helper-text">cups of flour</p>
                 </div>
 
@@ -28,7 +30,8 @@
 
                 <div class="input-group">
                     <label>Multiplier</label>
-                    <span id="num2-el" class="number-display"></span>
+                    <input type="number" id="input2" class="number-input" placeholder="2" oninput="updateNum2()">
+                    <span id="num2-el" class="number-display-small"></span>
                     <p class="helper-text">times the recipe</p>
                 </div>
             </div>
@@ -42,6 +45,12 @@
 
             <div class="result-section">
                 <span id="sum-el">Result: </span>
+            </div>
+
+            <div class="history-section">
+                <p class="history-label">Calculation History</p>
+                <div id="history-el" class="history-content">No calculations yet</div>
+                <button onclick="clearHistory()" class="clear-btn">Clear History</button>
             </div>
         </div>
 
