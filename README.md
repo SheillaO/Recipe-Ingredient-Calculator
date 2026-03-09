@@ -1,19 +1,76 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+🍪 Recipe Ingredient Calculator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+🚀 Live Demo
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+View Live Demo <https://recipeingredientscalculator.netlify.app/>
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+A simple yet elegant web calculator designed for scaling recipe ingredients. Built with vanilla JavaScript to demonstrate DOM manipulation and function implementation.
 
-Happy Coding!
+🌟 Features
+
+Simple Math Operations: Add, subtract, multiply, and divide ingredient quantities
+Clean UI: Modern, intuitive interface with gradient design
+Responsive: Works perfectly on desktop and mobile devices
+Recipe Context: Themed around cooking to make calculations practical and relatable
+
+🛠️ Technologies Used
+
+HTML5
+CSS3 (Gradients, Flexbox, Grid, Animations)
+Vanilla JavaScript (ES6)
+Google Fonts (Inter)
+
+🎨 Design Features
+
+Purple Gradient Background: Eye-catching color scheme
+Glassmorphism Elements: Modern frosted glass effect on info box
+Smooth Animations: Bouncing emoji and button hover effects
+Typography: Clean Inter font for professional look
+
+📝 What I Learned
+
+This project helped me practice:
+
+DOM Manipulation: Using getElementById() and textContent to update the UI
+Event Handling: Implementing onclick attributes to trigger functions
+Function Declaration: Creating reusable functions for different operations
+Variable Management: Working with let to store and update values
+Code Organization: Keeping JavaScript logic clean and readable
+Responsive Design: Using CSS Grid and Flexbox for layouts
+Modern CSS: Implementing gradients, shadows, and animations
+
+🔄 How It Works
+
+The calculator displays two numbers (8 and 2 by default)
+Users click operation buttons (Add, Subtract, Divide, Multiply)
+JavaScript performs the calculation
+The result updates instantly in the result section
+
+🎯 Use Cases
+
+Recipe Scaling: Adjust ingredient amounts when cooking for more people
+Ingredient Conversions: Quick calculations for recipe adjustments
+Learning Tool: Perfect beginner project for understanding JavaScript basics
+
+🔮 Future Improvements
+
+ Add input fields to change numbers dynamically
+ Include decimal support for precise measurements
+ Add unit conversion (cups to tablespoons, etc.)
+ Save calculation history
+ Add more complex operations (percentages, fractions)
+
+👤 Author
+Sheilla OLGA
+
+GitHub: <https://github.com/SheillaO>
+LinkedIn:<https://www.linkedin.com/in/sheillaolga/>
+
+📄 License
+This project is open source and available under the MIT License.
+
+🙏 Acknowledgments
+
+Inspired by real cooking needs
+Built as part of my JavaScript learning journey
+Thanks to the Scrimba JavaScript course for foundational knowledge
