@@ -1,10 +1,11 @@
 🍪 Recipe Ingredient Calculator
 
+A simple yet elegant web calculator designed for scaling recipe ingredients. Built with vanilla JavaScript to demonstrate DOM manipulation and function implementation.
+
 🚀 Live Demo
 
 View Live Demo <https://recipeingredientscalculator.netlify.app/>
 
-A simple yet elegant web calculator designed for scaling recipe ingredients. Built with vanilla JavaScript to demonstrate DOM manipulation and function implementation.
 
 🌟 Features
 
