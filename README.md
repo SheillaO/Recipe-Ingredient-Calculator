@@ -2,6 +2,9 @@
 
 A simple yet elegant web calculator designed for scaling recipe ingredients. Built with vanilla JavaScript to demonstrate DOM manipulation and function implementation.
 
+<img width="1037" height="800" alt="Recipe Calculator" src="https://github.com/user-attachments/assets/b669cfb8-19ae-4b91-bd31-26ef460535d7" />
+
+
 🚀 Live Demo
 
 View Live Demo <https://recipeingredientscalculator.netlify.app/>
